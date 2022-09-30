@@ -1,0 +1,64 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+   
+    align-items: center;
+    padding: 30px 30px 100px 100px;
+    position: relative;
+    border-bottom: 1px solid darkgray;
+    padding-top: 50px;
+}
+
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+
+}
+
+.cart{
+    width: 50px;
+    position: absolute;
+    right: 70px;
+}
+
+.nav_links{
+    padding-left: 40px;
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
