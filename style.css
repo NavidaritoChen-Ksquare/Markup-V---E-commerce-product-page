@@ -143,18 +143,21 @@ body{
 
 .discount{
     color: darkorange;
-    background-color: lightgoldenrodyellow;
+    background-color: lightpink;
     border: 1px;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 5px;
     margin-left: 10px;
+    
+ 
+  
  
 }
 
 .past_price{
     color: gray;
-    background-color: lightgray;
+    background-color: whitesmoke;
     border: 1px;
     border-radius: 5px;
     font-size: 15px;
@@ -165,16 +168,37 @@ body{
 
 .last_section{
     margin-top: 20px;
+    display: flex;
 }
-.minus, .plus, .quantity_valor{
-    font-size: 50px;
-    background-color: lightgray;
-    padding-left: 20px;
+.wrapper{
+    height: 50px;
+    width: 160px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plus, .minus{
+    color: darkorange;
 }
 
 .add_to_cart{
-    height: 58px;
+    height: 50px;
     font-size: 20px;
-    
+    margin-left: 20px;
+    width: 300px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: white;
 
 }
