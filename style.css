@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 li{
@@ -62,3 +63,118 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+.container{
+    display: flex;
+    width: 1500px;
+    margin: auto;
+}
+
+.carrousel{
+    width: 50%;
+}
+
+.big_img{
+    width: 500px;
+}
+
+.big_img img{
+    width: inherit;
+    border: solid 1px lightgray;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin-top: 15px;
+}
+
+.small_img{
+    width: 100px;
+    overflow: hidden;
+ 
+    border-radius: 15px;
+}
+.small_img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+#first_small{
+    border: solid 1px darkorange;
+}
+
+.small_img:hover img{
+    transform: scale(1,2);
+}
+
+.product{
+    width: 40%;
+}
+
+.shop_name{
+    margin-top: 150px;
+    color: darkorange;
+}
+
+.product_name{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 15px;
+}
+
+
+.product_description{
+    font-size: 20px;
+    margin-top: 15px;
+    color: gray;
+    width: 90%;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+
+.discount{
+    color: darkorange;
+    background-color: lightgoldenrodyellow;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 5px;
+    margin-left: 10px;
+ 
+}
+
+.past_price{
+    color: gray;
+    background-color: lightgray;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+    width: 10%;
+    margin-top: 10px;
+}
+
+.last_section{
+    margin-top: 20px;
+}
+.minus, .plus, .quantity_valor{
+    font-size: 50px;
+    background-color: lightgray;
+    padding-left: 20px;
+}
+
+.add_to_cart{
+    height: 58px;
+    font-size: 20px;
+    
+
+}
